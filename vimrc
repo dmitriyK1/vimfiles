@@ -1,7 +1,7 @@
 call pathogen#infect()
 filetype plugin on
 
-source ~/.vim/my_funcs.vim
+source ~/.vim/util_functions.vim
 
 "bn to go to next buffer
 nnoremap bn :bnext<cr>
@@ -62,12 +62,6 @@ imap <F4> :wa<cr>a
 
 "Have a mouse. It's useful :)
 set mouse=a
-
-"Include the file for the python highliting and bad whitespace coloring
-source ~/.vim/Python/vimrc
-
-"Small (questionably) usefull things I've done for myself
-source ~/.vim/my_commands.vim
 
 "Close currently visible buffer in selected window(depends on
 "~/vim/plugins/bclose.vim)
