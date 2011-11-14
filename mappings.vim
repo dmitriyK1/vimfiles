@@ -24,8 +24,8 @@ nmap <F4> :wa<cr>
 imap <F4> :wa<cr>a
 
 "Close currently visible buffer in selected window(depends on bclose.vim)
-nnoremap <F10> :Bclose<cr>
-inoremap <F10> :Bclose<cr>a
+nnoremap <F10> :Kwbd<cr>
+inoremap <F10> :Kwmbd<cr>a
 
 "Switch windows with Tab in normal mode
 nmap <tab> <c-w><c-w>
