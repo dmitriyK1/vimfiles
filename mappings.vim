@@ -37,3 +37,7 @@ inoremap <F8> :buffers<cr>
 "Move always by visual line
 nnoremap j gj
 nnoremap k gk
+
+"Big moves
+nnoremap J 5k
+nnoremap K 5k
