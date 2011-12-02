@@ -39,5 +39,5 @@ nnoremap j gj
 nnoremap k gk
 
 "Big moves
-nnoremap J 5k
+nnoremap J 5j
 nnoremap K 5k
