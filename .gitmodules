@@ -28,3 +28,6 @@
 [submodule "bundle/bufexplorer"]
 	path = bundle/bufexplorer
 	url = https://github.com/corntrace/bufexplorer.git
+[submodule "bundle/scala"]
+	path = bundle/scala
+	url = https://github.com/derekwyatt/vim-scala.git
