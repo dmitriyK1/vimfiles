@@ -4,6 +4,7 @@ set autoindent
 syntax enable
 set ts=4
 set shiftwidth=4
+set expandtab
 set number
 colorscheme wombat256i
 set background=dark
