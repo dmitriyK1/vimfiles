@@ -41,3 +41,6 @@ nnoremap k gk
 "Big moves
 nnoremap J 5j
 nnoremap K 5k
+
+"Toggle taglist with tt
+nnoremap tt :TlistToggle<cr>
