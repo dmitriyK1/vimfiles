@@ -6,7 +6,14 @@ set ts=4
 set shiftwidth=4
 set expandtab
 set number
-colorscheme wombat256i
+
+if has("gui_running")
+    colorscheme wombat256
+    set guifont=Ubuntu\ Mono\ 8
+else
+    colorscheme wombat256i
+endif
+
 set background=dark
 set mouse=a
 set t_Co=256
