@@ -18,3 +18,6 @@ set background=dark
 set mouse=a
 set t_Co=256
 set cursorline
+
+"Close vim if the only window left is NERDTree
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
