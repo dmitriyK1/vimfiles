@@ -8,13 +8,14 @@ set expandtab
 set number
 
 if has("gui_running")
-    colorscheme wombat256
+    colorscheme solarized
     set guifont=Ubuntu\ Mono\ 8
+    set bg=light
 else
     colorscheme wombat256i
+    set background=dark
 endif
 
-set background=dark
 set mouse=a
 set t_Co=256
 set cursorline
