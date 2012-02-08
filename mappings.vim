@@ -44,3 +44,9 @@ nnoremap K 5k
 
 "Toggle taglist with tt
 nnoremap tt :TlistToggle<cr>
+
+"
+nnoremap <Up> <nop>
+nnoremap <Down> <nop>
+nnoremap <Left> <nop>
+nnoremap <Right> <nop>
