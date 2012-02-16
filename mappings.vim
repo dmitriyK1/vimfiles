@@ -1,9 +1,3 @@
-"bn to go to next buffer
-nnoremap bn :bnext<cr>
-
-"bv to go to previous buffer
-nnoremap bv :bprev<cr>
-
 "Toggle text wrapping with F1
 map <F1> :set nowrap!<cr>
 imap <F1> :set nowrap!<cr>a
