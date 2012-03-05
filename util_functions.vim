@@ -3,3 +3,11 @@ function! StartUpNERDTree()
 		exec 'NERDTree'
 	endif
 endfunction
+
+function! ChangeLineNumberStyle()
+    if &number
+        set relativenumber
+    else
+        set number
+    end
+endfunction
