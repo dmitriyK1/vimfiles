@@ -6,6 +6,7 @@ set ts=4
 set shiftwidth=4
 set expandtab
 set number
+set statusline=File:\ %f\ -\ Type:\ %y%=%4l:%-4L
 
 if has("gui_running")
     colorscheme solarized
