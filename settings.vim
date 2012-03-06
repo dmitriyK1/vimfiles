@@ -6,6 +6,8 @@ set ts=4
 set shiftwidth=4
 set expandtab
 set number
+set hlsearch
+set incsearch
 
 if has("gui_running")
     colorscheme solarized
