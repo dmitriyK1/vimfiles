@@ -10,9 +10,9 @@ set hlsearch
 set incsearch
 
 if has("gui_running")
-    colorscheme solarized
-    set guifont=Ubuntu\ Mono\ 8
-    set bg=light
+    colorscheme wombat
+    set guifont=Ubuntu\ Mono\ 10
+    set bg=dark
 else
     colorscheme wombat256i
     set background=dark
