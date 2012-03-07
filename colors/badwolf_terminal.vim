@@ -500,6 +500,8 @@ call HL('VimBracket', 'dress', '', 'none')
 
 hi Normal ctermbg=none
 hi NonText ctermbg=none
+hi htmlTag ctermbg=none
+hi htmlEndTag ctermbg=none
 
 " }}}
 
