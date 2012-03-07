@@ -1,32 +1,17 @@
-"Toggle text wrapping with F1
-nnoremap <F1> :set nowrap!<cr>
-inoremap <F1> <c-c>set nowrap!<cr>a
+"Toggle text wrapping with <leader>tw
+nnoremap <leader>tw :set nowrap!<cr>
 
-"Turn on/off line numbers with F2
-nnoremap <F2> :set nonumber!<cr>:set foldcolumn=0<cr>
+"Toggle NERDTree with <leader>nt
+nnoremap <leader>nt :NERDTreeToggle<cr>
 
-"Toggle NERDTree with F5
-nnoremap <F5> :NERDTreeToggle<cr>
-inoremap <F5> <c-c>:NERDTreeToggle<cr>a
-
-"Use <F3> to save the current buffer
-nnoremap <F3> :w<cr>
-inoremap <F3> <c-c>:w<cr>a
-
-"Use <F4> to save all open buffers
-nnoremap <F4> :wa<cr>
-inoremap <F4> <c-c>:wa<cr>a
+"Use <leader>w to save all open buffers
+nnoremap <leader>w :wa<cr>
 
 "Close currently visible buffer in selected window(depends on bclose.vim)
-nnoremap <F10> :Kwbd<cr>
-inoremap <F10> <c-c>:Kwbd<cr>a
+nnoremap <leader>cb :Kwbd<cr>
 
 "Switch windows with Tab in normal mode
 nnoremap <tab> <c-w><c-w>
-
-"Show all buffers with F8
-nnoremap <F8> :buffers<cr>
-inoremap <F8> <c-c>:buffers<cr>
 
 "Move always by visual line
 nnoremap j gj
@@ -36,8 +21,11 @@ nnoremap k gk
 nnoremap J 5j
 nnoremap K 5k
 
-"Toggle taglist with tt
-nnoremap tt :TlistToggle<cr>
+"Toggle taglist with <leader>t
+nnoremap <leader>t :TlistToggle<cr>
+
+"Stop highlighting the last search
+nnoremap <c-h> :nohlsearch<cr>
 
 "
 nnoremap <Up> <nop>
