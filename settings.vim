@@ -10,12 +10,10 @@ set hlsearch
 set incsearch
 
 if has("gui_running")
-    colorscheme wombat
+    color badwolf
     set guifont=Ubuntu\ Mono\ 10
-    set bg=dark
 else
-    colorscheme wombat256i
-    set background=dark
+    color badwolf_terminal
 endif
 
 set mouse=a
