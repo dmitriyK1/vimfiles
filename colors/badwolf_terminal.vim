@@ -37,7 +37,7 @@ if exists("syntax_on")
     syntax reset
 endif
 
-let colors_name = "badwolf"
+let colors_name = "badwolf_terminal"
 
 " }}}
 " Palette {{{
