@@ -53,3 +53,6 @@ nnoremap <leader><space> :call ChangeLineNumberStyle()<cr>
 "Easier movements to start/end of line
 nnoremap <leader>h ^
 nnoremap <leader>l $
+
+"<c-c> is easier to use than <c-[>
+inoremap <c-c> <c-[>
