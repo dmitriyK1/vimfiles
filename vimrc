@@ -9,3 +9,4 @@ autocmd VimEnter * call StartUpNERDTree()
 "Because Debian is *special*
 let g:ackprg="ack-grep -H --column"
 let g:ackhighlight=1
+let Powerline_symbols='fancy'
