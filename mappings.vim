@@ -1,3 +1,5 @@
+let mapleader=';'
+
 "Toggle text wrapping with <leader>tw
 nnoremap <leader>tw :set nowrap!<cr>
 
@@ -56,5 +58,3 @@ nnoremap <leader>l $
 
 "<c-c> is easier to use than <c-[>
 inoremap <c-c> <c-[>
-
-let mapleader=';'
