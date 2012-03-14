@@ -56,3 +56,5 @@ nnoremap <leader>l $
 
 "<c-c> is easier to use than <c-[>
 inoremap <c-c> <c-[>
+
+let mapleader=';'
