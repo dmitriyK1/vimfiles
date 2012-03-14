@@ -6,6 +6,7 @@ set ts=4
 set shiftwidth=4
 set expandtab
 set number
+set numberwidth=2
 set hlsearch
 set incsearch
 
