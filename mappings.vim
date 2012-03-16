@@ -58,3 +58,7 @@ nnoremap <leader>l $
 
 "<c-c> is easier to use than <c-[>
 inoremap <c-c> <c-[>
+
+" J/K work as usual in nerd tree
+let g:NERDTreeMapJumpFirstChild='-'
+let g:NERDTreeMapJumpLastChild='-'
