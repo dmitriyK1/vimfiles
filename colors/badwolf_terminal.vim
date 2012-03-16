@@ -92,6 +92,9 @@ let s:bwc.toffee = ['b88853', 137]
 let s:bwc.coffee    = ['c7915b', 173]
 let s:bwc.darkroast = ['88633f', 95]
 
+" Custom color
+let s:bwc.porto = ['ff5500', 166]
+
 " }}}
 " Highlighting Function {{{
 function! HL(group, fg, ...)
@@ -206,7 +209,7 @@ call HL('iCursor', 'coal', 'tardis', 'none')
 " Syntax highlighting {{{
 
 " Start with a simple base.
-call HL('Special', 'plain')
+call HL('Special', 'porto')
 
 " Comments are slightly brighter than folds, to make 'headers' easier to see.
 call HL('Comment',        'gravel')
