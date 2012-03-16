@@ -12,7 +12,7 @@ set incsearch
 
 if has("gui_running")
     color badwolf
-    set guifont=Ubuntu\ Mono\ 10
+    set guifont=Ubuntu\ Mono\ 12
 else
     color badwolf_terminal
 endif
