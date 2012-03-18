@@ -49,3 +49,6 @@
 [submodule "bundle/io"]
 	path = bundle/io
 	url = https://github.com/xhr/vim-io.git
+[submodule "bundle/nyancat"]
+	path = bundle/nyancat
+	url = https://github.com/koron/nyancat-vim.git
