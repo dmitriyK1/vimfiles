@@ -52,3 +52,6 @@
 [submodule "bundle/nyancat"]
 	path = bundle/nyancat
 	url = https://github.com/koron/nyancat-vim.git
+[submodule "bundle/splitjoin"]
+	path = bundle/splitjoin
+	url = https://github.com/AndrewRadev/splitjoin.vim.git
