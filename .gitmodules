@@ -55,3 +55,6 @@
 [submodule "bundle/splitjoin"]
 	path = bundle/splitjoin
 	url = https://github.com/AndrewRadev/splitjoin.vim.git
+[submodule "bundle/instant_md"]
+	path = bundle/instant_md
+	url = https://github.com/suan/vim-instant-markdown.git
