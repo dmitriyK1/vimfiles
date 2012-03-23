@@ -62,3 +62,5 @@ inoremap <c-c> <c-[>
 " J/K work as usual in nerd tree
 let g:NERDTreeMapJumpFirstChild='-'
 let g:NERDTreeMapJumpLastChild='-'
+
+nnoremap <silent> <leader>? :execute 'vimgrep /'.@/.'/g %'<CR>:copen<CR>
