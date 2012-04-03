@@ -61,3 +61,6 @@
 [submodule "bundle/markdown"]
 	path = bundle/markdown
 	url = https://github.com/tpope/vim-markdown.git
+[submodule "bundle/indent_object"]
+	path = bundle/indent_object
+	url = https://github.com/michaeljsmith/vim-indent-object.git
