@@ -12,13 +12,18 @@ set incsearch
 
 if has("gui_running")
     color badwolf
-    set guifont=Ubuntu\ Mono\ 12
+    set go=
+    set guifont=DejaVu\ Sans\ Mono\ 10
 else
-    color badwolf_terminal
+    if($TERM =~ '^xterm')
+        set t_Co=256
+        color badwolf_terminal
+    else
+        set t_Co=8
+    endif
 endif
 
 set mouse=a
-set t_Co=256
 set cursorline
 
 "Close vim if the only window left is NERDTree
