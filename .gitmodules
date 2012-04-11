@@ -73,3 +73,6 @@
 [submodule "bundle/color_scheme_explorer"]
 	path = bundle/color_scheme_explorer
 	url = https://github.com/vim-scripts/Color-Scheme-Explorer.git
+[submodule "bundle/solarized-colors"]
+	path = bundle/solarized-colors
+	url = https://github.com/altercation/vim-colors-solarized.git
