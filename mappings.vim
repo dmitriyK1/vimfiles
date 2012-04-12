@@ -64,3 +64,6 @@ let g:NERDTreeMapJumpFirstChild='-'
 let g:NERDTreeMapJumpLastChild='-'
 
 nnoremap <silent> <leader>? :execute 'vimgrep /'.@/.'/g %'<CR>:copen<CR>
+
+"Write files as root
+cmap w!! w !sudo tee >/dev/null %
