@@ -67,3 +67,6 @@ nnoremap <silent> <leader>? :execute 'vimgrep /'.@/.'/g %'<CR>:copen<CR>
 
 "Write files as root
 cmap w!! w !sudo tee >/dev/null %
+
+"Start gitv with
+nnoremap <c-g> :Gitv<cr>
