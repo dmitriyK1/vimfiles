@@ -9,6 +9,7 @@ set number
 set numberwidth=2
 set hlsearch
 set incsearch
+set modeline
 
 if has("gui_running")
     color badwolf
