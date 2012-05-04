@@ -11,17 +11,11 @@ set hlsearch
 set incsearch
 set modeline
 
-if has("gui_running")
-    color badwolf
-    set go=
-    set guifont=DejaVu\ Sans\ Mono\ 10
+if($TERM =~ '^xterm')
+    set t_Co=256
+    color badwolf_terminal
 else
-    if($TERM =~ '^xterm')
-        set t_Co=256
-        color badwolf_terminal
-    else
-        set t_Co=8
-    endif
+    set t_Co=8
 endif
 
 set mouse=a
