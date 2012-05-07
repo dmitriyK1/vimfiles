@@ -70,3 +70,7 @@ cmap w!! w !sudo tee >/dev/null %
 
 "Start gitv with
 nnoremap <c-g> :Gitv<cr>
+
+"Navigate buffers
+nnoremap <leader>j :bnext<cr>
+nnoremap <leader>k :bprev<cr>
