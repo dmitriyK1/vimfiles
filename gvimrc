@@ -1,3 +1,3 @@
 color badwolf
 set go=
-set guifont=DejaVu\ Sans\ Mono\ 10
+set guifont=DejaVu\ Sans\ Mono\ 12
