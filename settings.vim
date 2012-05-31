@@ -13,7 +13,7 @@ set modeline
 
 if($TERM =~ '^xterm')
     set t_Co=256
-    color badwolf_terminal
+    color candyman
 else
     set t_Co=8
 endif
