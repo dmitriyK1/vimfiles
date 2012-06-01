@@ -288,7 +288,7 @@ endfun
 " }}}
  
 if version >= 700
-  call s:X("CursorLine","","5a5a5a","","","")
+  call s:X("CursorLine","","333333","","","")
   call s:X("CursorColumn","","5a5a5a","","","")
   call s:X("MatchParen","ffffff","80a090","bold","","")
  
@@ -304,6 +304,7 @@ endif
 call s:X("Visual","","503d50","","","")
 call s:X("Cursor","","996699","","","")
 
+call s:X("Operator", "846D43", "", "none", "DarkBlue", "")
 call s:X("Normal","e8e8d3","151515","","White","")
 call s:X("LineNr","605958","151515","none","Black","")
 call s:X("Comment","888888","","italic","Grey","")
@@ -334,8 +335,6 @@ call s:X("PreProc","8fbfdc","","","LightBlue","")
 
 call s:X("Test","8fbfdc","","","LightBlue","")
 
-hi link Operator Normal
- 
 call s:X("Type","d8a465","","","Yellow","")
 call s:X("NonText","808080","151515","","","")
  
@@ -405,7 +404,6 @@ hi link objcSuperclass objcClass
 hi link objcDirective rubyClass
 hi link cocoaFunction Function
 hi link objcMethodName Identifier
-hi link objcMethodArg Normal
 hi link objcMessageName Identifier
  
 " Tag list
