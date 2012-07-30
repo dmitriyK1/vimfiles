@@ -422,3 +422,6 @@ delf s:grey_number
 " }}}
  
 
+"Explicitly set Normal and NonText to have no background in terminal
+hi NonText ctermbg=none
+hi Normal ctermbg=none
