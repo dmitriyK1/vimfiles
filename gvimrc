@@ -1,3 +1,3 @@
 color candyman
 set go=
-set guifont=DejaVu\ Sans\ Mono\ 12
+set guifont=Terminus\ 10
