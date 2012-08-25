@@ -94,3 +94,6 @@
 [submodule "bundle/jsbeautify"]
 	path = bundle/jsbeautify
 	url = https://github.com/vim-scripts/vim-jsbeautify.git
+[submodule "bundle/vim-markdown-preview"]
+	path = bundle/vim-markdown-preview
+	url = https://github.com/nelstrom/vim-markdown-preview.git
