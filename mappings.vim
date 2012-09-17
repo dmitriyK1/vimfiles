@@ -77,3 +77,6 @@ nnoremap <leader>k :bprev<cr>
 
 "Show error window with <leader>e
 nnoremap <leader>e :Errors<cr>
+
+"Toggle Gudno with gu
+nnoremap gu :GundoToggle<cr>
