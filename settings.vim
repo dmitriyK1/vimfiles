@@ -11,7 +11,7 @@ set hlsearch
 set incsearch
 set modeline
 
-if($TERM =~ '^xterm')
+if($TERM =~ '^xterm' || $TERM == 'fbterm')
     set t_Co=256
     color candyman
 else
