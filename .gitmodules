@@ -88,9 +88,6 @@
 [submodule "bundle/mustache"]
 	path = bundle/mustache
 	url = git://github.com/juvenn/mustache.vim.git
-[submodule "bundle/css-color"]
-	path = bundle/css-color
-	url = https://github.com/skammer/vim-css-color.git
 [submodule "bundle/jsbeautify"]
 	path = bundle/jsbeautify
 	url = https://github.com/vim-scripts/vim-jsbeautify.git
