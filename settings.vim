@@ -23,3 +23,7 @@ set cursorline
 
 "Close vim if the only window left is NERDTree
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
+
+"Local vimrc settings
+let g:localvimrc_sandbox=0
+let g:localvimrc_whitelist='/home/kunev/projects/*/.*'
