@@ -27,3 +27,6 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTree
 "Local vimrc settings
 let g:localvimrc_sandbox=0
 let g:localvimrc_whitelist='/home/kunev/projects/*/.*'
+
+set listchars=tab:▶-,trail:•
+hi SpecialKey ctermbg=none

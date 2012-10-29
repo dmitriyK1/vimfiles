@@ -80,3 +80,6 @@ nnoremap <leader>e :Errors<cr>
 
 "Toggle Gudno with gu
 nnoremap gu :GundoToggle<cr>
+
+"Toggle list
+nnoremap <leader>tl :set list!<cr>
