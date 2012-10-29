@@ -83,3 +83,5 @@ nnoremap gu :GundoToggle<cr>
 
 "Toggle list
 nnoremap <leader>tl :set list!<cr>
+
+nnoremap <leader>gb :Gblame<cr>
