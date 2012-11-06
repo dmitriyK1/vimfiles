@@ -10,6 +10,7 @@ set numberwidth=2
 set hlsearch
 set incsearch
 set modeline
+set cindent
 
 if($TERM =~ '^xterm' || $TERM == 'fbterm')
     set t_Co=256
