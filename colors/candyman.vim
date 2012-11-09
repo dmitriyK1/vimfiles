@@ -312,7 +312,7 @@ call s:X("Todo","8a3c3b","","bold","","")
  
 call s:X("StatusLine","f0f0f0","393f47","italic","","")
 call s:X("StatusLineNC","484848","1a1f26","italic","","")
-call s:X("VertSplit","393f47","393f47","italic","","")
+call s:X("VertSplit","333333","000000","italic","","")
  
 call s:X("Folded","a0a8b0","384048","italic","black","")
 call s:X("FoldColumn","a0a8b0","384048","","","")
