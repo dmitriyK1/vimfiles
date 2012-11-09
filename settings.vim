@@ -10,7 +10,6 @@ set numberwidth=2
 set hlsearch
 set incsearch
 set modeline
-set cindent
 
 if($TERM =~ '^xterm' || $TERM == 'fbterm')
     set t_Co=256
@@ -31,3 +30,5 @@ let g:localvimrc_whitelist='/home/kunev/projects/*/.*'
 
 set listchars=tab:▶-,trail:•
 hi SpecialKey ctermbg=none
+
+set fillchars=vert:∥,fold:≣
