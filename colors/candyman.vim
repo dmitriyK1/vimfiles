@@ -345,6 +345,8 @@ call s:X("Search","f0a0c0","302028","underline","Magenta","")
 call s:X("Directory","dad085","","","","")
 call s:X("ErrorMsg","","902020","","","")
 
+call s:X("ColorColumn", "ff3333", "555555", "", "", "")
+
 " Diff
  
 hi link diffRemoved Constant
