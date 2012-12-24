@@ -106,3 +106,6 @@
 [submodule "bundle/afterimage"]
 	path = bundle/afterimage
 	url = git://github.com/tpope/vim-afterimage.git
+[submodule "bundle/golang"]
+	path = bundle/golang
+	url = git://github.com/jnwhiteh/vim-golang.git
