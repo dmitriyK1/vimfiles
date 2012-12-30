@@ -16,9 +16,6 @@
 [submodule "bundle/conque"]
 	path = bundle/conque
 	url = https://github.com/rson/vim-conque.git
-[submodule "bundle/sparkup"]
-	path = bundle/sparkup
-	url = https://github.com/kogakure/vim-sparkup.git
 [submodule "bundle/coffee-script"]
 	path = bundle/coffee-script
 	url = https://github.com/kchmck/vim-coffee-script.git
