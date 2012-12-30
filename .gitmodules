@@ -106,3 +106,6 @@
 [submodule "bundle/golang"]
 	path = bundle/golang
 	url = git://github.com/jnwhiteh/vim-golang.git
+[submodule "bundle/zencoding"]
+	path = bundle/zencoding
+	url = git://github.com/mattn/zencoding-vim.git
