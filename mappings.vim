@@ -55,7 +55,7 @@ nnoremap <silent> <leader>? :execute 'vimgrep /'.@/.'/g %'<CR>:copen<CR>
 cmap w!! w !sudo tee >/dev/null %
 
 "Start gitv with
-nnoremap <c-g> :Gitv<cr>
+nnoremap <leader>g :Gitv<cr>
 
 "Navigate buffers
 nnoremap <leader>j :bnext<cr>
@@ -65,7 +65,7 @@ nnoremap <leader>k :bprev<cr>
 nnoremap <leader>e :Errors<cr>
 
 "Toggle Gudno with gu
-nnoremap gu :GundoToggle<cr>
+nnoremap <leader>gu :GundoToggle<cr>
 
 "Toggle list
 nnoremap <leader>tl :set list!<cr>
