@@ -10,6 +10,7 @@ set numberwidth=2
 set hlsearch
 set incsearch
 set modeline
+set laststatus=2
 
 if($TERM =~ '^xterm' || $TERM =~ '^screen' || $TERM == 'fbterm')
     set t_Co=256
