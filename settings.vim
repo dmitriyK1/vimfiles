@@ -33,3 +33,6 @@ set listchars=tab:▶-,trail:•
 hi SpecialKey ctermbg=none
 
 set fillchars=vert:∥,fold:≣
+
+
+set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
