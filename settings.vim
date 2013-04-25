@@ -14,7 +14,7 @@ set laststatus=2
 
 if($TERM =~ '^xterm' || $TERM =~ '^screen' || $TERM == 'fbterm')
     set t_Co=256
-    color candyman
+    color Tomorrow-Night-Eighties
 else
     set t_Co=8
 endif
