@@ -29,6 +29,15 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTree
 let g:localvimrc_sandbox=0
 let g:localvimrc_whitelist='/home/kunev/projects/*/.*'
 
+"Syntastic settings
+let g:syntastic_check_on_open=1
+
+let g:syntastic_error_symbol='✗>'
+let g:syntastic_style_error_symbol='S✗'
+let g:syntastic_warning_symbol='!>'
+let g:syntastic_style_warning_symbol='S!'
+
+
 set listchars=tab:▶-,trail:•
 hi SpecialKey ctermbg=none
 
