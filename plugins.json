@@ -13,7 +13,6 @@
     "io": "https://github.com/xhr/vim-io.git",
     "nyancat": "https://github.com/koron/nyancat-vim.git",
     "splitjoin": "https://github.com/AndrewRadev/splitjoin.vim.git",
-    "instant_md": "https://github.com/suan/vim-instant-markdown.git",
     "markdown": "https://github.com/tpope/vim-markdown.git",
     "indent_object": "https://github.com/michaeljsmith/vim-indent-object.git",
     "json": "https://github.com/leshill/vim-json.git",
