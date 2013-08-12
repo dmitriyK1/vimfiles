@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import subprocess
 import colorama
+import sys
 import os
 colorama.init()
 
