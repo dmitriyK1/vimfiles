@@ -15,7 +15,7 @@ set softtabstop=4
 
 if($TERM =~ '^xterm' || $TERM =~ '^screen' || $TERM == 'fbterm')
     set t_Co=256
-    color obsidian-darker
+    color badwolf_terminal
 else
     set t_Co=8
 endif
