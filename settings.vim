@@ -1,5 +1,5 @@
 filetype plugin on
-set showtabline=2
+set showtabline=1
 set autoindent
 syntax enable
 set ts=4
