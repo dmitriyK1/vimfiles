@@ -3,8 +3,6 @@
 import json
 import subprocess
 
-from initialize_single_plugin import initialize_plugin
-
 plugins = json.load(open('plugins.json'))
 
 for directory, url in plugins.items():
