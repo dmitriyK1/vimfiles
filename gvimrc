@@ -1,3 +1,3 @@
-color Tomorrow-Night-Eighties
+color badwolf
 set go=
 set guifont=Droid\ Sans\ Mono\ 9
