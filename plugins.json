@@ -6,6 +6,7 @@
   "coffee-script": "https://github.com/kchmck/vim-coffee-script.git",
   "color_scheme_explorer": "https://github.com/vim-scripts/Color-Scheme-Explorer.git",
   "colorschemes": "https://github.com/flazz/vim-colorschemes.git",
+  "commentary": "https://github.com/tpope/vim-commentary",
   "covim": "https://github.com/FredKSchott/CoVim.git",
   "css-color": "https://github.com/skammer/vim-css-color",
   "ctrlp": "git://github.com/kien/ctrlp.vim.git",
