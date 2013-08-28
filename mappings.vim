@@ -72,4 +72,4 @@ nnoremap <leader>tl :set list!<cr>
 
 nnoremap <leader>gb :Gblame<cr>
 
-nnoremap <c-m> :Multichange<cr>
+nnoremap <leader>m :Multichange<cr>
