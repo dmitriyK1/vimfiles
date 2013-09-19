@@ -19,6 +19,7 @@
   "golang": "git://github.com/jnwhiteh/vim-golang.git",
   "gundo": "http://github.com/sjl/gundo.vim.git",
   "html5": "git://github.com/othree/html5.vim.git",
+  "indentLine": "https://github.com/Yggdroot/indentLine.git",
   "indent_object": "https://github.com/michaeljsmith/vim-indent-object.git",
   "instant-markdown": "git://github.com/suan/vim-instant-markdown.git",
   "io": "https://github.com/xhr/vim-io.git",
