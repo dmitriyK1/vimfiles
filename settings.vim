@@ -14,8 +14,9 @@ set laststatus=2
 set softtabstop=4
 
 if($TERM =~ '^xterm' || $TERM =~ '^screen' || $TERM == 'fbterm')
+    autocmd ColorScheme * so ~/.vim/rmbg.vim
     set t_Co=256
-    color badwolf_terminal
+    color badwolf
 else
     set t_Co=8
 endif
