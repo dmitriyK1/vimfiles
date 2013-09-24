@@ -45,7 +45,6 @@
   "syntastic": "https://github.com/scrooloose/syntastic",
   "taglist": "https://github.com/vim-scripts/taglist.vim.git",
   "tlib": "git://github.com/tomtom/tlib_vim.git",
-  "vim-cute-python": "https://github.com/ehamberg/vim-cute-python",
   "vim-markdown-preview": "https://github.com/nelstrom/vim-markdown-preview.git",
   "vimpdb": "https://github.com/gotcha/vimpdb.git",
   "visual-star-search": "git://github.com/bronson/vim-visual-star-search.git",
