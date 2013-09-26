@@ -38,6 +38,7 @@
   "powerline": "git://github.com/Lokaltog/powerline.git",
   "scala": "https://github.com/derekwyatt/vim-scala.git",
   "snipmate": "git://github.com/garbas/vim-snipmate.git",
+  "snippets": "https://github.com/honza/vim-snippets.git",
   "solarized-colors": "https://github.com/altercation/vim-colors-solarized.git",
   "splitjoin": "https://github.com/AndrewRadev/splitjoin.vim.git",
   "supertab": "https://github.com/ervandew/supertab.git",
