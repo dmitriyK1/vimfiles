@@ -7,4 +7,5 @@ source ~/.vim/mappings.vim
 "autocmd VimEnter * call StartUpNERDTree()
 
 let g:ackhighlight=1
-let Powerline_symbols='fancy'
+let g:airline_powerline_fonts = 1
+let g:bufferline_fname_mod = ':.'

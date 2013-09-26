@@ -1,8 +1,10 @@
 {
   "ack": "https://github.com/mileszs/ack.vim.git",
   "afterimage": "git://github.com/tpope/vim-afterimage.git",
+  "airline": "https://github.com/bling/vim-airline.git",
   "bclose": "https://github.com/cespare/vim-bclose.git",
   "bufexplorer": "https://github.com/corntrace/bufexplorer.git",
+  "bufferline": "https://github.com/bling/vim-bufferline.git",
   "classpath": "git://github.com/tpope/vim-classpath.git",
   "clojure-static": "git://github.com/guns/vim-clojure-static.git",
   "coffee-script": "https://github.com/kchmck/vim-coffee-script.git",
@@ -35,7 +37,6 @@
   "notes": "https://github.com/xolox/vim-notes",
   "nyancat": "https://github.com/koron/nyancat-vim.git",
   "perl": "git://github.com/vim-perl/vim-perl.git",
-  "powerline": "git://github.com/Lokaltog/powerline.git",
   "scala": "https://github.com/derekwyatt/vim-scala.git",
   "snipmate": "git://github.com/garbas/vim-snipmate.git",
   "snippets": "https://github.com/honza/vim-snippets.git",
